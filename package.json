@@ -1,0 +1,31 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Belajar TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bimbimmulya/typescript.git"
+  },
+  "author": "Bimbim Mulya Krismon",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Bimbimmulya/typescript/issues"
+  },
+  "homepage": "https://github.com/Bimbimmulya/typescript#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
