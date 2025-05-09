@@ -8,3 +8,13 @@ describe('Data array', function() {
 
   })
 })
+
+describe('Data read only Array', function() {
+  it('Should data read only Array', function() {
+
+    const address : ReadonlyArray<string> = ['JL. Verina X Graha Raya Blok J No 28'];
+
+    console.info(address)
+
+  })
+})

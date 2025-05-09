@@ -5,6 +5,11 @@ describe('Data array', function () {
         const noUrut = [1, 2, 3];
         console.info(names);
         console.info(noUrut);
-        names[0] = 1;
+    });
+});
+describe('Data read only Array', function () {
+    it('Should data read only Array', function () {
+        const address = ['JL. Verina X Graha Raya Blok J No 28'];
+        console.info(address);
     });
 });
