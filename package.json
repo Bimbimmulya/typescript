@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "typescript-code",
   "version": "1.0.0",
   "description": "Belajar TypeScript",
   "main": "index.js",
@@ -24,8 +24,12 @@
   "homepage": "https://github.com/Bimbimmulya/typescript#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.27.2",
+    "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "babel-jest": "^29.7.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
   }
 }
