@@ -8,6 +8,7 @@ describe('Data type Any', function () {
         };
         person.name = 'Bimbimmulya';
         person.address = 'JL. Verina X Graha Raya Blok J No 28';
+        //bisa melakukan perubahan data dan menambah data karena data type nya any, akan tetapi disarankan tidak terlalu sering menggunakan data type any
         console.info(person);
     });
 });
