@@ -22,7 +22,6 @@ describe('Union code', function () {
             expect(value).toBe(false);
         }
         function usingTypeOf(data) {
-            data = ['ani ani'];
             //note: 
             //1. Saat kita membuat Union Type, kita perlu berhati-hati ketika memanggil method terhadap variabel tersebut
             // 2. Hal ini karena tipe datanya bisa berubah, oleh karena itu ada baiknya kita melakukan pengecekan tipe data terlebih dahulu menggunakan typeof
