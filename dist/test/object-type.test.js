@@ -8,6 +8,14 @@ describe('This Object Type', function () {
             id: 1,
             name: 'Bimbim'
         };
-        console.info(person);
+        console.info(person, '<--- person 1');
+        person.id = 2;
+        person.name = 'Bimbim Mulya Krismon';
+        person.hobbies = ['reading', 'learning code',];
+        console.info(person, '<-- person 2');
     });
 });
+// Notes for Type Optional
+// Secara default, saat kita membuat attribute di Object atau Type, maka attribute tersebut wajib diisi nilainya
+// Namun, kadang-kadang tidak semua attribute itu wajib diisi nilainya
+// Pada kasus attribute nya tidak wajib diisi, kita bisa tambahkan tanda ? untuk menandakan bahwa itu adalah optional
