@@ -1,0 +1,12 @@
+import { StringArray } from '../src/indexable-interface'
+
+describe('This indexable interface', () => {
+  it('Support indexable interface', () => {
+    const names: StringArray = ['Doni', 'Keken', 'Hans']
+
+    expect(names[2]).toBe('Hans')
+    console.info(names[0], '<---- 0')
+    console.info(names[1], '<---- 1')
+    console.info(names[2], '<---- 2')
+  })
+})
